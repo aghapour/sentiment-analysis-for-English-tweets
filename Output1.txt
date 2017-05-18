@@ -1,0 +1,441 @@
+
+
+===================================================
+Created on Apr 1, 2017
+Project03 of Data Science
+@author: Ahad Aghapour
+@student number: S011178
+@email: ahad.aghapour@ozu.edu.tr
+===================================================
+
+Start to loading data from this file: 
+ /mnt/34A236B2A2367906/EclipseWorkspace/DataScienceProject03Ubuntu/src/twitter_sentiment_corpus.csv
+
+iteration 1 ===========================================
+
+1# TfidfVectorizer
+LogisticRegression:		0.7129
+LogisticRegression kfold:	0.6498
+LinearSVC:			0.7736
+LinearSVC kfold:		0.6226
+DecisionTreeClassifier:			0.7026
+DecisionTreeClassifier kfold:		0.6068
+RandomForestClassifier:			0.7310
+RandomForestClassifier kfold:		0.6358
+
+2# bigram_TfidfVectorizer
+LogisticRegression:		0.6877
+LogisticRegression kfold:	0.6705
+LinearSVC:			0.7645
+LinearSVC kfold:		0.6431
+DecisionTreeClassifier:			0.7086
+DecisionTreeClassifier kfold:		0.6071
+RandomForestClassifier:			0.7266
+RandomForestClassifier kfold:		0.6489
+
+3# CountVectorizer
+LogisticRegression:		0.7609
+LogisticRegression kfold:	0.6068
+LinearSVC:			0.7714
+LinearSVC kfold:		0.5828
+DecisionTreeClassifier:			0.7063
+DecisionTreeClassifier kfold:		0.5873
+RandomForestClassifier:			0.7339
+RandomForestClassifier kfold:		0.6326
+
+4# bigram_CountVectroizer
+LogisticRegression:		0.7725
+LogisticRegression kfold:	0.6182
+LinearSVC:			0.7859
+LinearSVC kfold:		0.6077
+DecisionTreeClassifier:			0.7132
+DecisionTreeClassifier kfold:		0.5964
+RandomForestClassifier:			0.7333
+RandomForestClassifier kfold:		0.6361
+
+iteration 2 ===========================================
+
+1# TfidfVectorizer
+LogisticRegression:		0.7194
+LogisticRegression kfold:	0.6498
+LinearSVC:			0.7778
+LinearSVC kfold:		0.6226
+DecisionTreeClassifier:			0.7064
+DecisionTreeClassifier kfold:		0.6083
+RandomForestClassifier:			0.7294
+RandomForestClassifier kfold:		0.6241
+
+2# bigram_TfidfVectorizer
+LogisticRegression:		0.6935
+LogisticRegression kfold:	0.6705
+LinearSVC:			0.7738
+LinearSVC kfold:		0.6431
+DecisionTreeClassifier:			0.7060
+DecisionTreeClassifier kfold:		0.6077
+RandomForestClassifier:			0.7276
+RandomForestClassifier kfold:		0.6451
+
+3# CountVectorizer
+LogisticRegression:		0.7578
+LogisticRegression kfold:	0.6068
+LinearSVC:			0.7685
+LinearSVC kfold:		0.5828
+DecisionTreeClassifier:			0.7099
+DecisionTreeClassifier kfold:		0.5902
+RandomForestClassifier:			0.7423
+RandomForestClassifier kfold:		0.6273
+
+4# bigram_CountVectroizer
+LogisticRegression:		0.7804
+LogisticRegression kfold:	0.6182
+LinearSVC:			0.7814
+LinearSVC kfold:		0.6077
+DecisionTreeClassifier:			0.7126
+DecisionTreeClassifier kfold:		0.5952
+RandomForestClassifier:			0.7343
+RandomForestClassifier kfold:		0.6550
+
+iteration 3 ===========================================
+
+1# TfidfVectorizer
+LogisticRegression:		0.7185
+LogisticRegression kfold:	0.6498
+LinearSVC:			0.7745
+LinearSVC kfold:		0.6226
+DecisionTreeClassifier:			0.7160
+DecisionTreeClassifier kfold:		0.6054
+RandomForestClassifier:			0.7414
+RandomForestClassifier kfold:		0.6299
+
+2# bigram_TfidfVectorizer
+LogisticRegression:		0.6798
+LogisticRegression kfold:	0.6705
+LinearSVC:			0.7703
+LinearSVC kfold:		0.6431
+DecisionTreeClassifier:			0.7123
+DecisionTreeClassifier kfold:		0.6235
+RandomForestClassifier:			0.7263
+RandomForestClassifier kfold:		0.6481
+
+3# CountVectorizer
+LogisticRegression:		0.7623
+LogisticRegression kfold:	0.6068
+LinearSVC:			0.7662
+LinearSVC kfold:		0.5828
+DecisionTreeClassifier:			0.7169
+DecisionTreeClassifier kfold:		0.5864
+RandomForestClassifier:			0.7425
+RandomForestClassifier kfold:		0.6267
+
+4# bigram_CountVectroizer
+LogisticRegression:		0.7655
+LogisticRegression kfold:	0.6182
+LinearSVC:			0.7814
+LinearSVC kfold:		0.6077
+DecisionTreeClassifier:			0.7164
+DecisionTreeClassifier kfold:		0.5981
+RandomForestClassifier:			0.7318
+RandomForestClassifier kfold:		0.6337
+
+iteration 4 ===========================================
+
+1# TfidfVectorizer
+LogisticRegression:		0.7171
+LogisticRegression kfold:	0.6498
+LinearSVC:			0.7810
+LinearSVC kfold:		0.6226
+DecisionTreeClassifier:			0.7102
+DecisionTreeClassifier kfold:		0.6068
+RandomForestClassifier:			0.7293
+RandomForestClassifier kfold:		0.6317
+
+2# bigram_TfidfVectorizer
+LogisticRegression:		0.6915
+LogisticRegression kfold:	0.6705
+LinearSVC:			0.7676
+LinearSVC kfold:		0.6431
+DecisionTreeClassifier:			0.7134
+DecisionTreeClassifier kfold:		0.6229
+RandomForestClassifier:			0.7271
+RandomForestClassifier kfold:		0.6469
+
+3# CountVectorizer
+LogisticRegression:		0.7556
+LogisticRegression kfold:	0.6068
+LinearSVC:			0.7699
+LinearSVC kfold:		0.5828
+DecisionTreeClassifier:			0.7120
+DecisionTreeClassifier kfold:		0.5852
+RandomForestClassifier:			0.7404
+RandomForestClassifier kfold:		0.6416
+
+4# bigram_CountVectroizer
+LogisticRegression:		0.7739
+LogisticRegression kfold:	0.6182
+LinearSVC:			0.7789
+LinearSVC kfold:		0.6077
+DecisionTreeClassifier:			0.7141
+DecisionTreeClassifier kfold:		0.6002
+RandomForestClassifier:			0.7296
+RandomForestClassifier kfold:		0.6536
+
+iteration 5 ===========================================
+
+1# TfidfVectorizer
+LogisticRegression:		0.7187
+LogisticRegression kfold:	0.6498
+LinearSVC:			0.7721
+LinearSVC kfold:		0.6226
+DecisionTreeClassifier:			0.7005
+DecisionTreeClassifier kfold:		0.6048
+RandomForestClassifier:			0.7239
+RandomForestClassifier kfold:		0.6352
+
+2# bigram_TfidfVectorizer
+LogisticRegression:		0.6929
+LogisticRegression kfold:	0.6705
+LinearSVC:			0.7681
+LinearSVC kfold:		0.6431
+DecisionTreeClassifier:			0.7123
+DecisionTreeClassifier kfold:		0.6258
+RandomForestClassifier:			0.7299
+RandomForestClassifier kfold:		0.6495
+
+3# CountVectorizer
+LogisticRegression:		0.7673
+LogisticRegression kfold:	0.6068
+LinearSVC:			0.7678
+LinearSVC kfold:		0.5828
+DecisionTreeClassifier:			0.7105
+DecisionTreeClassifier kfold:		0.5882
+RandomForestClassifier:			0.7411
+RandomForestClassifier kfold:		0.6340
+
+4# bigram_CountVectroizer
+LogisticRegression:		0.7779
+LogisticRegression kfold:	0.6182
+LinearSVC:			0.7732
+LinearSVC kfold:		0.6077
+DecisionTreeClassifier:			0.7138
+DecisionTreeClassifier kfold:		0.5961
+RandomForestClassifier:			0.7384
+RandomForestClassifier kfold:		0.6454
+
+iteration 6 ===========================================
+
+1# TfidfVectorizer
+LogisticRegression:		0.7242
+LogisticRegression kfold:	0.6498
+LinearSVC:			0.7697
+LinearSVC kfold:		0.6226
+DecisionTreeClassifier:			0.7065
+DecisionTreeClassifier kfold:		0.6071
+RandomForestClassifier:			0.7361
+RandomForestClassifier kfold:		0.6326
+
+2# bigram_TfidfVectorizer
+LogisticRegression:		0.6921
+LogisticRegression kfold:	0.6705
+LinearSVC:			0.7711
+LinearSVC kfold:		0.6431
+DecisionTreeClassifier:			0.7145
+DecisionTreeClassifier kfold:		0.6098
+RandomForestClassifier:			0.7282
+RandomForestClassifier kfold:		0.6349
+
+3# CountVectorizer
+LogisticRegression:		0.7672
+LogisticRegression kfold:	0.6068
+LinearSVC:			0.7658
+LinearSVC kfold:		0.5828
+DecisionTreeClassifier:			0.7157
+DecisionTreeClassifier kfold:		0.5855
+RandomForestClassifier:			0.7395
+RandomForestClassifier kfold:		0.6212
+
+4# bigram_CountVectroizer
+LogisticRegression:		0.7697
+LogisticRegression kfold:	0.6182
+LinearSVC:			0.7805
+LinearSVC kfold:		0.6077
+DecisionTreeClassifier:			0.7121
+DecisionTreeClassifier kfold:		0.5955
+RandomForestClassifier:			0.7347
+RandomForestClassifier kfold:		0.6512
+
+iteration 7 ===========================================
+
+1# TfidfVectorizer
+LogisticRegression:		0.7197
+LogisticRegression kfold:	0.6498
+LinearSVC:			0.7804
+LinearSVC kfold:		0.6226
+DecisionTreeClassifier:			0.7133
+DecisionTreeClassifier kfold:		0.6048
+RandomForestClassifier:			0.7396
+RandomForestClassifier kfold:		0.6372
+
+2# bigram_TfidfVectorizer
+LogisticRegression:		0.6867
+LogisticRegression kfold:	0.6705
+LinearSVC:			0.7736
+LinearSVC kfold:		0.6431
+DecisionTreeClassifier:			0.7057
+DecisionTreeClassifier kfold:		0.6060
+RandomForestClassifier:			0.7264
+RandomForestClassifier kfold:		0.6559
+
+3# CountVectorizer
+LogisticRegression:		0.7572
+LogisticRegression kfold:	0.6068
+LinearSVC:			0.7716
+LinearSVC kfold:		0.5828
+DecisionTreeClassifier:			0.7213
+DecisionTreeClassifier kfold:		0.5850
+RandomForestClassifier:			0.7366
+RandomForestClassifier kfold:		0.6267
+
+4# bigram_CountVectroizer
+LogisticRegression:		0.7706
+LogisticRegression kfold:	0.6182
+LinearSVC:			0.7722
+LinearSVC kfold:		0.6077
+DecisionTreeClassifier:			0.7096
+DecisionTreeClassifier kfold:		0.5975
+RandomForestClassifier:			0.7287
+RandomForestClassifier kfold:		0.6326
+
+iteration 8 ===========================================
+
+1# TfidfVectorizer
+LogisticRegression:		0.7137
+LogisticRegression kfold:	0.6498
+LinearSVC:			0.7714
+LinearSVC kfold:		0.6226
+DecisionTreeClassifier:			0.7020
+DecisionTreeClassifier kfold:		0.6077
+RandomForestClassifier:			0.7321
+RandomForestClassifier kfold:		0.6323
+
+2# bigram_TfidfVectorizer
+LogisticRegression:		0.6859
+LogisticRegression kfold:	0.6705
+LinearSVC:			0.7720
+LinearSVC kfold:		0.6431
+DecisionTreeClassifier:			0.7120
+DecisionTreeClassifier kfold:		0.6106
+RandomForestClassifier:			0.7292
+RandomForestClassifier kfold:		0.6478
+
+3# CountVectorizer
+LogisticRegression:		0.7674
+LogisticRegression kfold:	0.6068
+LinearSVC:			0.7713
+LinearSVC kfold:		0.5828
+DecisionTreeClassifier:			0.7151
+DecisionTreeClassifier kfold:		0.5858
+RandomForestClassifier:			0.7398
+RandomForestClassifier kfold:		0.6329
+
+4# bigram_CountVectroizer
+LogisticRegression:		0.7730
+LogisticRegression kfold:	0.6182
+LinearSVC:			0.7805
+LinearSVC kfold:		0.6077
+DecisionTreeClassifier:			0.7141
+DecisionTreeClassifier kfold:		0.5996
+RandomForestClassifier:			0.7419
+RandomForestClassifier kfold:		0.6513
+
+iteration 9 ===========================================
+
+1# TfidfVectorizer
+LogisticRegression:		0.7155
+LogisticRegression kfold:	0.6498
+LinearSVC:			0.7789
+LinearSVC kfold:		0.6226
+DecisionTreeClassifier:			0.7008
+DecisionTreeClassifier kfold:		0.6042
+RandomForestClassifier:			0.7356
+RandomForestClassifier kfold:		0.6168
+
+2# bigram_TfidfVectorizer
+LogisticRegression:		0.6889
+LogisticRegression kfold:	0.6705
+LinearSVC:			0.7717
+LinearSVC kfold:		0.6431
+DecisionTreeClassifier:			0.7064
+DecisionTreeClassifier kfold:		0.6039
+RandomForestClassifier:			0.7269
+RandomForestClassifier kfold:		0.6510
+
+3# CountVectorizer
+LogisticRegression:		0.7643
+LogisticRegression kfold:	0.6068
+LinearSVC:			0.7696
+LinearSVC kfold:		0.5828
+DecisionTreeClassifier:			0.7102
+DecisionTreeClassifier kfold:		0.5879
+RandomForestClassifier:			0.7411
+RandomForestClassifier kfold:		0.6323
+
+4# bigram_CountVectroizer
+LogisticRegression:		0.7652
+LogisticRegression kfold:	0.6182
+LinearSVC:			0.7683
+LinearSVC kfold:		0.6077
+DecisionTreeClassifier:			0.7216
+DecisionTreeClassifier kfold:		0.5964
+RandomForestClassifier:			0.7350
+RandomForestClassifier kfold:		0.6571
+
+iteration 10 ===========================================
+
+1# TfidfVectorizer
+LogisticRegression:		0.7180
+LogisticRegression kfold:	0.6498
+LinearSVC:			0.7756
+LinearSVC kfold:		0.6226
+DecisionTreeClassifier:			0.7074
+DecisionTreeClassifier kfold:		0.6071
+RandomForestClassifier:			0.7320
+RandomForestClassifier kfold:		0.6320
+
+2# bigram_TfidfVectorizer
+LogisticRegression:		0.6881
+LogisticRegression kfold:	0.6705
+LinearSVC:			0.7648
+LinearSVC kfold:		0.6431
+DecisionTreeClassifier:			0.7095
+DecisionTreeClassifier kfold:		0.6159
+RandomForestClassifier:			0.7251
+RandomForestClassifier kfold:		0.6609
+
+3# CountVectorizer
+LogisticRegression:		0.7640
+LogisticRegression kfold:	0.6068
+LinearSVC:			0.7770
+LinearSVC kfold:		0.5828
+DecisionTreeClassifier:			0.7166
+DecisionTreeClassifier kfold:		0.5911
+RandomForestClassifier:			0.7396
+RandomForestClassifier kfold:		0.6244
+
+4# bigram_CountVectroizer
+LogisticRegression:		0.7758
+LogisticRegression kfold:	0.6182
+LinearSVC:			0.7797
+LinearSVC kfold:		0.6077
+DecisionTreeClassifier:			0.7174
+DecisionTreeClassifier kfold:		0.5984
+RandomForestClassifier:			0.7265
+RandomForestClassifier kfold:		0.6524
+
+===================================================
+The maximum accuracy is: 	0.7859
+
+
+4# bigram_CountVectroizer
+..
+LinearSVC:			0.7859
+
